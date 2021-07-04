@@ -1,104 +1,84 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
+.DS_Store
+git.properties
+*.userlibraries
+*.log.20*
 *.log
-local_settings.py
-db.sqlite3
 
-# Flask stuff:
-instance/
-.webassets-cache
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
-# Scrapy stuff:
-.scrapy
+*.iml
+*.eml
 
-# Sphinx documentation
-docs/_build/
+## Directory-based project format:
+.idea/
 
-# PyBuilder
-target/
+## File-based project format:
+*.ipr
+*.iws
 
-# Jupyter Notebook
-.ipynb_checkpoints
+## Plugin-specific files:
 
-# pyenv
-.python-version
+# IntelliJ
+/out/
 
-# celery beat schedule file
-celerybeat-schedule
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# SageMath parsed files
-*.sage.py
+# JIRA plugin
+atlassian-ide-plugin.xml
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Python
+__pycache__
+*.pyc
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
 
-# Rope project settings
-.ropeproject
+# java build files
+target
+node_modules
+gulpfile.js
 
-# mkdocs documentation
-/site
+# debug scripts.
+deploy.sh
+ftpsync.settings
+dependency-reduced-pom.xml
+*.swp
+.DS_Store
 
-# mypy
-.mypy_cache/
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+*.cer
+*.p12
+*.mobileprovision
+
+# VSCode
+.vscode
+# AppCode
+.idea
+
+# Tern plugin
+**/.tern-project
+
+#emacs temp file
+*~
+
+# Maven Repository
+.repository
+
